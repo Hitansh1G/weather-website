@@ -13,10 +13,10 @@ const forecast = (longitude, latitude, callback) => {
         undefined,
         "It is currently " +
           body.current.temperature +
-          "°C. " +
+          "°C . " +
           "It feels like " +
           body.current.feelslike +
-          "°C out."
+          "°C ."
       );
     }
   });
