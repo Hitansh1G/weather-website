@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">  
+    <link rel="icon" href="/img/weather.png">
+    <script src="https://kit.fontawesome.com/c6f76b.js" crossorigin="anonymous"></script>
+    <title>Help</title>
+</head>
+<body>
+    <div class="main-content">
+    {{>header}}
+     <main>
+                    <p>What is this webpage?</p>
+                    <p>This is a very basic webpage that tells users about the weather in any location in the world. It
+                        uses data from <a href="https://www.mapbox.com/" target="_blank"
+                            >mapbox.com</a> and <a
+                            href="https://weatherstack.com/" target="_blank">weatherstack.com</a>.</p>
+                    <br>
+                    <p>How does it work?</p>
+                    <p>It's very simple. Click on the 'weather' tab. On this page the user will find an input box where
+                        he/she can type in the location they want. Click the 'search' button beside the input box and
+                        voilà!
+                    </p>
+                    <br>
+                    <p>I followed the instructions, but got the weather information from
+                        some
+                        other
+                        place. What can I do?</p>
+                    <p>In cases like this, I suggest users be more specific with their queries. What does this mean?
+                        Don't just type in the city name, try typing in the country's name as well.</p>
+                    <br>
+                </div>
+            </div>
+        </main>
+    </div>
+    {{>footer}}
+</body>
+</html>
