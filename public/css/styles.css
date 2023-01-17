@@ -2,16 +2,42 @@
 body {
     color : #333333;
     font-family : arial;
-    max-width : 650px;
+    /* max-width : 650px; */
     margin : 0 auto;
     padding : 0 16px;
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-} 
+    background-image: url("");
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.navbar-1{
+    display: flex;
+    justify-content: right;
+}
 
 .main-content {
     flex-grow : 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-grow : 1;
+    font-size: large;
+}
+.help-content{
+    margin: auto;
+    margin-top: 2rem;
+    width:65%;
+    padding: 25px;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 footer{
@@ -23,7 +49,7 @@ footer{
 
 input {
    border : 1px solid #cccccc;
-   padding : 8px
+   padding : 8px;
 }
 
 button {
@@ -53,4 +79,25 @@ header a{
 
 .portrait {
      width: 230px;
+}
+.form{
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+}
+#button{
+    text-align: center;
+}
+.content-2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;   
+}
+.final-message{
+    padding-top: 3rem;
+    font-size: 19px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ul1{
+    font-size: large;
 }

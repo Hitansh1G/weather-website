@@ -30,22 +30,6 @@ app.get('/help',(req,res)=>{
     name : 'Deepanshu'
   })
 })
-// app.use(express.static())
-// app.get('/help',(req,res)=>{
-//   res.send({
-//      name : 'Deepanshu',
-//      age : 20
-//   })
-// })
-
-// res.send([{
-//     name : 'Deepansh'
-// },{
-//     name : 'ketan'
-// },{
-//     name : 'jatin'
-// }])
-// })
 
 //app.com/about
 app.get('/about',(req,res)=>{
@@ -78,11 +62,6 @@ app.get('/weather',(req,res)=>{
      })
   })
  
-//   res.send({
-//      forecast : mainForecast,
-//      location : details,
-//      address :   req.query.address
-//   })
 })
 
 app.get('/products', (req,res)=>{
