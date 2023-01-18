@@ -16,6 +16,13 @@ body {
     /* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
     background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
 }
+.img {
+    width: auto;
+    height: 30vh;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: -1rem;
+}
 .navbar-1{
     display: flex;
     justify-content: right;
@@ -36,7 +43,7 @@ body {
 }
 .help-content{
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 2dwrem;
     width:65%;
     padding: 25px;
 }
@@ -127,3 +134,19 @@ a:hover{
 #iil2:hover{
     color: navy;
 }
+=======
+}
+@media screen and (max-width: 700px) {
+    .form {
+        width: 90%;
+        padding-top: 1rem;
+    }
+    .img {
+        width: auto;
+        height: 25vh;
+        border-radius: 50%;
+        margin: auto;
+        margin-bottom: -2.5rem;
+    }
+}
+
