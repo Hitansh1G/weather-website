@@ -18,7 +18,7 @@ app.use(express.static(publicDirectoryPath))
 app.get('',(req,res)=>{
   res.render('index',{
       title : 'Weather',
-      name : 'Deepanshu'
+      name : 'Deepanshu and Hitansh'
   })
 })
 
@@ -27,7 +27,7 @@ app.get('/help',(req,res)=>{
   res.render('help',{
     message : 'Do you need any kind of help !!',
     title : 'Help',
-    name : 'Deepanshu'
+    name : 'Deepanshu and Hitansh'
   })
 })
 
@@ -35,7 +35,7 @@ app.get('/help',(req,res)=>{
 app.get('/about',(req,res)=>{
   res.render('about',{
     title : 'About',
-    name : 'Deepanshu'
+    name : 'Deepanshu and Hitansh'
   })
 })
 //app.com/weather
@@ -79,7 +79,7 @@ app.get('/products', (req,res)=>{
 //routes :- basically they all are the express routes
 app.get('/help/*' , (req,res)=>{
    res.render('error',{
-     name : 'Deepanshu' ,
+     name : 'Deepanshu and Hitansh' ,
      title : '404',
      message : 'Help article not found'
    })
@@ -87,7 +87,7 @@ app.get('/help/*' , (req,res)=>{
 
 app.get('*' , (req,res)=>{
    res.render('error',{
-    name : 'Deepanshu',
+    name : 'Deepanshu and Hitansh',
     title : '404',
     message : 'Page not found !'
    })

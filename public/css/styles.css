@@ -1,6 +1,6 @@
 
 body {
-    color : #333333;
+    color : white;
     font-family : arial;
     /* max-width : 650px; */
     margin : 0 auto;
@@ -9,7 +9,12 @@ body {
     flex-direction: column;
     min-height: 100vh; 
     background-image: url("");
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    /* background-image: linear-gradient(135deg,#0F2027, #203A43, #2C5364 ); */
+    /* background-image: linear-gradient(135deg,#16222A,#3A6073 ); */
+    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+    /* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
+    background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
 }
 .navbar-1{
     display: flex;
@@ -36,12 +41,15 @@ body {
     padding: 25px;
 }
 .title{
-    font-size: 20px;
+    margin-top: 3%;
+    font-size: 50px;
     font-weight: bold;
+    color: white;
+    margin-left: 1%;
 }
 
 footer{
-   color: #888888 ;
+   color: white ;
    border-top: 1px solid #eeeeee;
    margin-top: 16px;
    padding:16px 0;
@@ -54,8 +62,8 @@ input {
 
 button {
    cursor: pointer;
-   border: 1px solid #888888;
-   background-color: #888888;
+   border: 1px solid white;
+   background-color: white;
    color: white;
    padding : 8px;
 }
@@ -72,7 +80,8 @@ h1{
 }
 
 header a{
-     color : #888888;
+     /* color : #888888; */
+     color: white;
      margin-right: 16px;
      text-decoration: none;
 }
@@ -100,4 +109,21 @@ header a{
 }
 #ul1{
     font-size: large;
+    color: white;
+    
+}
+a:hover{
+    color: navy;
+}
+#il2 title::before{
+    background: url(public/img/icon.png);
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+#iil2{
+    color: blue;
+}
+#iil2:hover{
+    color: navy;
 }
