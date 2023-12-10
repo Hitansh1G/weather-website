@@ -134,19 +134,5 @@ a:hover{
 #iil2:hover{
     color: navy;
 }
-=======
-}
-@media screen and (max-width: 700px) {
-    .form {
-        width: 90%;
-        padding-top: 1rem;
-    }
-    .img {
-        width: auto;
-        height: 25vh;
-        border-radius: 50%;
-        margin: auto;
-        margin-bottom: -2.5rem;
-    }
-}
+
 
